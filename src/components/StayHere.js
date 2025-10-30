@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const StayHere = () => {
   const [time, setTime] = useState(0);
