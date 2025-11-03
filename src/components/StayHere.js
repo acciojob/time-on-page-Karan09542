@@ -8,7 +8,7 @@ const StayHere = () => {
     }, 1000);
     return () => clearInterval(id);
   }, []);
-  return `You've been on this page for ${time} seconds.`;
+  return <p>You've been on this page for ${time} seconds.</p>
 };
 
 export default StayHere;
